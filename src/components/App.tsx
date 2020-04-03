@@ -4,10 +4,9 @@ import Content from './Content'
 import Nav from './Nav'
 
 const App = () => (
-  <div id="container">
+  <div id="container" className="pure-g">
     <Nav />
     <Content />
-    <Footer />
   </div>
 )
 
