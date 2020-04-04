@@ -29,7 +29,7 @@
       "condition": "purchased something from Amazon"
     }, {
       "condition": "traded stocks"
-    }],
+    }]
   }, {
     "name": "morning",
     "prefix": "do if you",

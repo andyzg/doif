@@ -10,5 +10,5 @@ export interface ConditionList {
 }
 
 export interface ConditionPack {
-  pack: ConditionList[];
+  conditions: ConditionList[];
 }

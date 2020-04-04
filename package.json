@@ -6,6 +6,7 @@
   "author": "andyzg",
   "license": "MIT",
   "devDependencies": {
+    "@types/jquery": "^3.3.34",
     "@types/lodash": "^4.14.149",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.5",

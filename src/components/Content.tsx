@@ -4,7 +4,6 @@ import { connect } from 'react-redux'
 import ActionToolbar from './ActionToolbar'
 
 const Content = ({ dispatch }) => {
-  dispatch(addTodo('todo list item'));
   let condition = "If your full name has an 'A'";
   let consequence = "Do 10 pushups";
 
