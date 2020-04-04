@@ -35,6 +35,8 @@
       "condition": "purchased something from Amazon"
     }, {
       "condition": "traded stocks"
+    }, {
+      "condition": "freestyle"
     }]
   }, {
     "name": "morning",
@@ -44,6 +46,8 @@
       "condition": "had an alarm"
     }, {
       "condition": "did not have breakfast"
+    }, {
+      "condition": "freestyle"
     }, {
       "condition": "checked your work emails"
     }]
@@ -55,6 +59,8 @@
       "condition": "your full name has a repeated letter"
     }, {
       "condition": "you drank last night"
+    }, {
+      "condition": "freestyle"
     }, {
       "condition": "checked your work emails this morning"
     }]
