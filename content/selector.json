@@ -1,12 +1,12 @@
 {
   "conditions": [{
     "name": "quarantine",
-    "prefix": "do if you've ",
-    "postfix": " during quarantine",
+    "prefix": "never have i ever",
+    "postfix": "during quarantine",
     "list": [{
       "condition": "watched netflix"
     }, {
-      "condition": "did not workout in the last month"
+      "condition": "worked out in the last month"
     }, {
       "condition": "played an online game (board game, video game, etc.)"
     }, {
@@ -22,9 +22,15 @@
     }, {
       "condition": "tried to pick up a new hobby"
     }, {
-      "condition": "gotten drunk"
+      "condition": "gotten tipsy"
     }, {
       "condition": "gotten high"
+    }, {
+      "condition": "done yoga"
+    }, {
+      "condition": "watched bachelor"
+    }, {
+      "condition": "watched love is blind"
     }, {
       "condition": "purchased something from Amazon"
     }, {
@@ -32,23 +38,23 @@
     }]
   }, {
     "name": "morning",
-    "prefix": "do if you",
-    "postfix": "",
+    "prefix": "never have i ever",
+    "postfix": "this morning",
     "list": [{
-      "condition": "had an alarm this morning"
+      "condition": "had an alarm"
     }, {
-      "condition": "did not have breakfast this morning"
+      "condition": "did not have breakfast"
     }, {
-      "condition": "checked your work emails this morning"
+      "condition": "checked your work emails"
     }]
   }, {
     "name": "random",
-    "prefix": "",
+    "prefix": "do if",
     "postfix": "",
     "list": [{
-      "condition": "if your full name has a repeated letter"
+      "condition": "your full name has a repeated letter"
     }, {
-      "condition": "if you drank last night"
+      "condition": "you drank last night"
     }, {
       "condition": "checked your work emails this morning"
     }]
