@@ -1,12 +1,13 @@
 import { connect } from 'react-redux'
-import { switchStage } from '../actions'
+import { switchStage, switchPacks, switchIndices } from '../actions'
 import React from 'react'
 
 const Nav = ({dispatch}) => {
 
   let f = stuff => {
-    console.log(dispatch, switchStage)
     dispatch(switchStage(stuff))
+    dispatch(switchIndices())
+    dispatch(switchPacks())
     return null
   }
 

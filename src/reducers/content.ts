@@ -20,7 +20,7 @@ const content = (state = {}, action) => {
       if (!exercises) {
         exercises = []
       }
-      console.log(state);
+      console.log(state)
       return {
         "exercises": exercises,
         "conditions": action.conditions,
@@ -28,6 +28,22 @@ const content = (state = {}, action) => {
         "exerciseIndex": 0,
         "conditionIndex": 0
       }
+    case 'SWITCH_PACKS':
+      return {
+        "exercises": (state as any).exercises,
+        "conditions": (state as any).conditions,
+        "pack": (state as any).pack + 1,
+        "exerciseIndex": (state as any).exerciseIndex,
+        "conditionIndex": (state as any).conditionIndex
+      }
+      case 'SWITCH_INDICES':
+        return {
+          "exercises": (state as any).exercises,
+          "conditions": (state as any).conditions,
+          "pack": (state as any).pack,
+          "exerciseIndex": Math.floor(Math.random() * 100),
+          "conditionIndex": Math.floor(Math.random() * 100)
+        }
     default:
       return state
   }

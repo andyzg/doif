@@ -48,7 +48,7 @@
     "list": [{
       "condition": "if your full name has a repeated letter"
     }, {
-      "condition": "if you"
+      "condition": "if you drank last night"
     }, {
       "condition": "checked your work emails this morning"
     }]

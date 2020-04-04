@@ -34,10 +34,10 @@
   "ending": [{
     "text": "Plank for 30 seconds"
   }, {
-    "name": "Plank for 30 seconds on each side"
+    "text": "Plank for 30 seconds on each side"
   }, {
-    "name": "Chair on the wall for 30 seconds"
+    "text": "Chair on the wall for 30 seconds"
   }, {
-    "name": "Do the flutter kick for 30 seconds"
+    "text": "Do the flutter kick for 30 seconds"
   }]
 }
