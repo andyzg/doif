@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
-import todos from './todos'
-import visibilityFilter from './visibilityFilter'
+import content from './content'
+import nav from './nav'
 
 export default combineReducers({
-  todos,
-  visibilityFilter
+  content,
+  nav
 })

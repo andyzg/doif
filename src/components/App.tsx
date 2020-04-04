@@ -1,12 +1,12 @@
 import React from 'react'
 import Footer from './Footer'
-import Content from './Content'
+import ContentContainer from '../containers/ContentContainer'
 import Nav from './Nav'
 
 const App = () => (
   <div id="container" className="pure-g">
     <Nav />
-    <Content />
+    <ContentContainer />
   </div>
 )
 

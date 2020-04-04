@@ -10,16 +10,23 @@ const content = (state = {}, action) => {
       }
       return {
         "exercises": action.exercises,
-        "conditions": conditions
+        "conditions": conditions,
+        "pack": 0,
+        "exerciseIndex": 0,
+        "conditionIndex": 0
       }
     case 'LOAD_CONDITIONS':
       let exercises = state['exercises'];
       if (!exercises) {
         exercises = []
       }
+      console.log(state);
       return {
         "exercises": exercises,
-        "conditions": action.conditions
+        "conditions": action.conditions,
+        "pack": 0,
+        "exerciseIndex": 0,
+        "conditionIndex": 0
       }
     default:
       return state
