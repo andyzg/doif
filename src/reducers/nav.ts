@@ -6,6 +6,9 @@ const nav = (state = "WARMUP", action) => {
       return "WORKOUT"
     case 'ENDING':
       return "ENDING"
+    case 'SWITCH_STAGE':
+      console.log(action.stage)
+      return action.stage
     default:
       return state
   }

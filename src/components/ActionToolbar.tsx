@@ -1,5 +1,4 @@
 import React from 'react'
-import { addTodo } from '../actions'
 import { connect } from 'react-redux'
 
 const ActionToolbar = ({ dispatch }) => {

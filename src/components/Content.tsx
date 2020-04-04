@@ -1,5 +1,4 @@
 import React from 'react'
-import { addTodo } from '../actions'
 import { connect } from 'react-redux'
 import ActionToolbar from './ActionToolbar'
 
@@ -16,7 +15,7 @@ const Content = ({ condition, exercise, conditionIndex, exerciseIndex, stage, pa
     console.log(condition, exercise, pack);
     let selectedC = condition[pack]
     let ci = conditionIndex % selectedC['list'].length
-    topText = selectedC['prefix'] + ' ' + selectedC['list'][ci]['condition'] + ' ' + selectedC['potsfix']
+    topText = selectedC['prefix'] + ' ' + selectedC['list'][ci]['condition'] + ' ' + selectedC['postfix']
 
     let selectedE = exercise[stage.toLowerCase()]
     let ei = exerciseIndex % selectedE.length
