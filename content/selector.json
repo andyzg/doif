@@ -1,0 +1,56 @@
+{
+  "conditions": [{
+    "name": "quarantine",
+    "prefix": "do if you've ",
+    "postfix": " during quarantine",
+    "list": [{
+      "condition": "watched netflix"
+    }, {
+      "condition": "did not workout in the last month"
+    }, {
+      "condition": "played an online game (board game, video game, etc.)"
+    }, {
+      "condition": "finished an entire season of a show in the last month"
+    }, {
+      "condition": "read an entire book"
+    }, {
+      "condition": "cooked a meal"
+    }, {
+      "condition": "went to the groceries"
+    }, {
+      "condition": "ordered delivery / takeout"
+    }, {
+      "condition": "tried to pick up a new hobby"
+    }, {
+      "condition": "gotten drunk"
+    }, {
+      "condition": "gotten high"
+    }, {
+      "condition": "purchased something from Amazon"
+    }, {
+      "condition": "traded stocks"
+    }],
+  }, {
+    "name": "morning",
+    "prefix": "do if you",
+    "postfix": "",
+    "list": [{
+      "condition": "had an alarm this morning"
+    }, {
+      "condition": "did not have breakfast this morning"
+    }, {
+      "condition": "checked your work emails this morning"
+    }]
+  }, {
+    "name": "random",
+    "prefix": "",
+    "postfix": "",
+    "list": [{
+      "condition": "if your full name has a repeated letter"
+    }, {
+      "condition": "if you"
+    }, {
+      "condition": "checked your work emails this morning"
+    }]
+  }]
+}

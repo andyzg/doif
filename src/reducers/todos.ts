@@ -1,23 +1,29 @@
-const todos = (state = [], action) => {
+import { Condition, ConditionList, ConditionPack } from '../models/Condition'
+
+
+const content = (state = {}, action) => {
   switch (action.type) {
-    case 'ADD_TODO':
-      return [
-        ...state,
-        {
-          id: action.id,
-          text: action.text,
-          completed: false
-        }
-      ]
-    case 'TOGGLE_TODO':
-      return state.map(todo =>
-        (todo.id === action.id)
-          ? {...todo, completed: !todo.completed}
-          : todo
-      )
+    case 'LOAD_EXERCISES':
+      let conditions = state['conditions'];
+      if (!conditions) {
+        conditions = []
+      }
+      return {
+        "exercises": action.exercises,
+        "conditions": conditions
+      }
+    case 'LOAD_CONDITIONS':
+      let exercises = state['exercises'];
+      if (!exercises) {
+        exercises = []
+      }
+      return {
+        "exercises": exercises,
+        "conditions": action.conditions
+      }
     default:
       return state
   }
 }
 
-export default todos
+export default content

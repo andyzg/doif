@@ -1,0 +1,63 @@
+{
+  "warmup": [{
+    "name": "arm spins",
+    "duration": "15 seconds on each side"
+  }, {
+    "name": "kicks",
+    "duration": "15 seconds for each leg"
+  }, {
+    "name": "wrist spins",
+    "duration": "15 seconds on each side"
+  }],
+  "cardio": [{
+    "name": "jumping jacks",
+    "duration": "1 minute"
+  }, {
+    "name": "butt kicks",
+    "duration": "1 minute"
+  }, {
+    "name": "high knees",
+    "duration": "minute"
+  }],
+  "repetition": [{
+    "name": "burpees",
+    "quantity": 5
+  }, {
+    "name": "pistol squats",
+    "quantity": 5
+  }, {
+    "name": "mountain climbers",
+    "quantity": 15
+  }, {
+    "name": "push ups",
+    "quantity": 10
+  }, {
+    "name": "crunches",
+    "quantity": 15
+  }, {
+    "name": "leg raises",
+    "quantity": 10
+  }, {
+    "name": "lunges",
+    "quantity": 10
+  }, {
+    "name": "bicycle",
+    "quantity": 10
+  }, {
+    "name": "squats",
+    "quantity": 10
+  }],
+  "isometric": [{
+    "name": "plank",
+    "duration": "45 seconds"
+  }, {
+    "name": "side plank",
+    "duration": "30 seconds"
+  }, {
+    "name": "chair",
+    "duration": "45 seconds"
+  }, {
+    "name": "flutter kick",
+    "duration": "45 second"
+  }]
+}
